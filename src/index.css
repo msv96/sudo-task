@@ -244,6 +244,41 @@ body {
 	text-align: center;
 	margin-bottom: 150px;
 }
+.grid {
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.links {
+    padding: 45px 200px;
+}
+.map {
+    width: 100%;
+}
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-one {
+    font-weight: 500;
+    margin: 5px 0px;
+    color: var(--red);
+}
+.flex-rem {
+    font-weight: 500;
+    margin: 5px 0px;
+    color: var(--black);
+}
+.flex-last {
+    margin-top: 70px;
+    display: flex;
+    grid-gap: 20px;
+}
 .foot {
 	font-size: 14px;
 	background-color: var(--black);
