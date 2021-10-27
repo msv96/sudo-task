@@ -11,7 +11,7 @@ body {
 }
 .one {
 	position: relative;
-	height: 100vh;
+	height: 1060px;
 	width: 100%;
 	background-image: url("./1.png");
 	background-size: cover;
@@ -29,6 +29,7 @@ body {
 .menu {
 	height: 100px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	gap: 30px;
 	background-color: var(--white);
@@ -50,7 +51,7 @@ body {
 .heading {
 	color: var(--white);
 	position: relative;
-	font-size: 3.5rem;
+	font-size: 3vw;
 	font-weight: 700;
 }
 .btn1,
@@ -74,10 +75,184 @@ body {
 .side-note {
 	position: relative;
 	color: var(--white);
-    opacity: 1;
-    display: flex;
-    justify-content: center;
+	opacity: 0.8;
+	display: flex;
+	justify-content: center;
 }
-.side-note > span {
-    margin: 25px;
+.side-note-span {
+	margin: 25px;
+}
+.float {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	grid-gap: 30px;
+}
+.back {
+	width: 204px;
+	height: 228px;
+	color: var(--white);
+	font-size: 22px;
+	font-weight: 500;
+	box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+}
+.back:hover {
+	color: var(--black);
+	background-color: var(--red);
+	transition: ease-out 300ms;
+}
+.img {
+	border: 2px solid var(--white);
+}
+.img:hover {
+	opacity: 0.35;
+	transition: ease-out 300ms;
+}
+.back-span {
+	position: relative;
+	top: -150px;
+}
+.two,
+.three {
+	text-align: center;
+	background-color: var(--white);
+}
+.two-head {
+	font-size: 48px;
+	font-weight: 500;
+	padding: 180px 0px 10px 0px;
+}
+.two-para {
+	margin: 30px 0px;
+}
+.four-para {
+	margin: 20px 0px 80px 0px;
+}
+.two-flex,
+.three-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-gap: 30px;
+}
+.four-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-gap: 30px;
+	margin: 30px 0px;
+}
+.two-flex {
+	margin-bottom: 130px;
+}
+.three-flex {
+	margin-bottom: 60px;
+}
+.prod:hover {
+	transform: scale(1.05);
+	transition: ease-out 300ms;
+}
+.prod-img,
+.prod-img1 {
+	box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+}
+.prod-head,
+.prod-head1 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+.prod-desc,
+.prod-desc1 {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--gold);
+}
+.prod-rate,
+.prod-rate1 {
+	font-size: 25px;
+	font-weight: 500;
+	color: var(--red);
+	margin-top: 10px;
+}
+.mid {
+	background-image: url(./10.png);
+	position: relative;
+}
+.mid::before {
+	content: "";
+	background-color: var(--black);
+	opacity: 0.65;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+.mid-head {
+	position: relative;
+	top: -200px;
+	bottom: 0px;
+	color: var(--white);
+	font-size: 36px;
+	font-weight: 700;
+}
+.btn {
+	margin-top: 190px;
+	margin-bottom: 70px;
+}
+.mid-2 {
+	background-color: var(--black);
+	color: var(--white);
+	padding: 70px 0px;
+}
+.quot {
+	font-size: 72px;
+	padding-right: 30px;
+	border-right: 1px solid var(--white);
+	margin: 0px 30px 0px 30%;
+}
+.mid-content {
+	position: relative;
+	top: -60px;
+	left: 600px;
+	bottom: 0px;
+	right: 0px;
+	text-align: left;
+	width: 600px;
+}
+.user {
+	text-align: center;
+}
+.circle {
+	padding: 20px 30px;
+	background-color: hsl(0, 0%, 80%);
+	border-radius: 100px;
+	margin-right: 20px;
+}
+.cus-name {
+	color: var(--red);
+}
+.cus-react {
+	margin-left: 100px;
+	font-size: 12px;
+}
+.four {
+	background-color: var(--white);
+	text-align: center;
+	margin-bottom: 150px;
+}
+.foot {
+	font-size: 14px;
+	background-color: var(--black);
+	color: var(--white);
+	padding: 40px 0px;
+}
+.foot-menu-1 {
+	margin: 0px 400px;
+}
+.foot-menus {
+	margin: 0px 20px;
 }
